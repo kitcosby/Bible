@@ -1,3 +1,6 @@
+> **Note:** This is an earlier partial copy. Current work continues in
+> [bible-project](https://github.com/cosbykit-afk/bible-project).
+
 # Bible Project
 
 A Hebrew Bible database and build-your-own-translation website. Every
