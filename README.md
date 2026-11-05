@@ -1,5 +1,6 @@
-> **Note:** This is an earlier partial copy. Current work continues in
-> [bible-project](https://github.com/cosbykit-afk/bible-project).
+> **Historical copy:** This repository is an earlier partial copy. Current
+> work continues in
+> [bible-project](https://github.com/kitcosby/bible-project).
 
 # Bible Project
 
@@ -29,7 +30,7 @@ readers pick word by word and save their own translation.
 `bible.db` (SQLite, git-ignored — rebuild with `assemble_bible.py`):
 
 | Table | Rows | Notes |
-|---|---|---|
+|---|---:|---|
 | `words` | 264,217 | One row per Hebrew/Aramaic token; morphology parsed; Strong's via OSHB crosswalk |
 | `kjv_renderings` | 409,930 | KJV word renderings aligned to Hebrew words |
 | `kjv_words` | 610,324 | Raw KJV+Strong's word list |
@@ -66,5 +67,7 @@ files don't) — see `oshb_crosswalk_report.json`.
 
 ## Status
 
-Database built; website not yet started. Open items are tracked as `U-`
+This is a historical partial copy. Its files and history are retained for
+reference; use [bible-project](https://github.com/kitcosby/bible-project)
+for current development. Open items in this snapshot are tracked as `U-`
 items in `NOTATION_LEDGER.md`.
